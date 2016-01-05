@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Eventorganisation</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--<link href="css/bootstrap-theme.min.css" rel="stylesheet">-->
+		<link href="css/page.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body role="document">
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Eventorganisation</a>
+				</div>
+
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="login.html">Anmelden</a></li>
+						<li class="active"><a href="index.html">Übersicht</a></li>
+					</ul>
+				  
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Malte Werner <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Profil</a></li>
+								<li><a href="#">Abmelden</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container" role="main">
+			<div class="page-header">
+				<h1>Event Übersicht <a class="btn btn-primary pull-right" href="createevent.html">Anlegen</a></h1>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">Meine Events</div>
+						<div class="panel-body">
+							<p>
+								Hier ist eine Übersicht ihrer Events. Die Blauen wurden von Ihnen erstellt, bei den Grünen haben Sie zu-,
+								bei den Roten abgesagt.
+							</p>
+						</div>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Datum</th>
+									<th>Name</th>
+									<th>Location</th>
+									<th>Teilnehmer</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="info">
+									<td>19.12.2015 - 19:00 Uhr</td>
+									<td><a href="eventdetails.html">Weihnachtsfeier Fussball</a></td>
+									<td>
+										<address>
+											<strong>Sportheim Palmers FC</strong> <br/>
+											Village Road 13 <br/>
+											23628 Palmers
+										</address>
+									</td>
+									<td>
+										<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;199 <br/>
+										<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;&nbsp;72
+									</td>
+								</tr>
+								<tr class="danger">
+									<td>11.12.2015 - 16:00 Uhr</td>
+									<td><a href="eventdetails.html">Kaffeekranz</a></td>
+									<td>
+										<address>
+											<strong>Cafe Nonstop</strong> <br/>
+											Mühlengasse 1 <br/>
+											23552 Lübeck
+										</address>
+									</td>
+									<td>
+										<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;199 <br/>
+										<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;&nbsp;72
+									</td>
+								</tr>
+								<tr class="success">
+									<td>19.10.2015 - 19:00 Uhr</td>
+									<td><a href="eventdetails.html">Weihnachtsfeier Fussball</a></td>
+									<td>
+										<address>
+											<strong>Sportheim Palmers FC</strong> <br/>
+											Village Road 13 <br/>
+											23628 Palmers
+										</address>
+									</td>
+									<td>
+										<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;&nbsp;199 <br/>
+										<span class="glyphicon glyphicon-thumbs-down"></span>&nbsp;&nbsp;72
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
