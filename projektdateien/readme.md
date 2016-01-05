@@ -1,0 +1,3 @@
+Hier sind alle Projektdateien zum Kurs "Webentwicklung" WS 2015/16 der Gruppe 4 FH Lübeck enthalten
+
+Diese Datei ist mit einem anderen Account erstellt worden ...
